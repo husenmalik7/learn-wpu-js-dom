@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play with Color</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        text-align: center;
+      }
+      .salmon-color {
+        background-color: salmon;
+      }
+      .box {
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+      }
+      .red {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Play Color with WPU</h2>
+
+    <button id="button" type="button">Change Color</button>
+    <br /><br />
+    <div class="red box"></div>
+    <input type="range" name="redSlider" min="0" max="255" />
+
+    <div class="green box"></div>
+    <input type="range" name="greenSlider" min="0" max="255" />
+
+    <div class="blue box"></div>
+    <input type="range" name="blueSlider" min="0" max="255" />
+
+    <script src="scriptColor.js"></script>
+  </body>
+</html>
